@@ -61,7 +61,7 @@ function create_cc_post_type() {
 			'show_ui' => true,
 			'capability_type' => 'post',
 			'rewrite' => array( 'slug' => 'np_coupon_code'),
-			'taxonomies' => array( 'Coupon Code '),
+			'taxonomies' => array( 'Coupon Code', 'category', 'post_tag'),
 			'supports' => array('title'),
 			'menu_icon'	=> plugins_url('npcc-icon.png',__FILE__ )
 		)
